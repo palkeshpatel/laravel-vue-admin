@@ -28,7 +28,7 @@ createInertiaApp({
         showSpinner: true,
     },
 
-    title: (title) => `${title} - GuacPanel`,
+    title: (title) => `${title} - Laravel Admin`,
 
     resolve: (name) => {
         const pages = import.meta.glob("./Pages/**/*.vue", { eager: true });

@@ -13,6 +13,40 @@
   <p>Build powerful admin panels, dashboards, and web applications with this comprehensive starter kit</p>
 </div>
 
+## 📸 Screenshots
+
+<div align="center">
+  <h4>🎨 Beautiful & Modern User Interface</h4>
+  <p>Experience the stunning dark theme and intuitive design of Laravel Admin</p>
+</div>
+
+### 🏠 Dashboard Overview
+
+![Dashboard](public/img/Dashbord.png)
+_Comprehensive dashboard with metrics, charts, and real-time data visualization_
+
+### 👥 User Management
+
+![User Management](public/img/User-Management.png)
+_Complete user management system with roles, permissions, and bulk actions_
+
+### 🔐 Access Management
+
+![Access Management](public/img/Access-Management.png)
+_Advanced role-based access control with granular permissions_
+
+### 📋 Audit Logs
+
+![Audit Logs](public/img/Audit-Log.png)
+_Comprehensive audit trail and activity monitoring_
+
+### 🔑 Secure Authentication
+
+![Login](public/img/login.png)
+_Modern login interface with magic link support and 2FA_
+
+---
+
 ## ✨ Features
 
 ### 🔐 **Authentication & Security**

@@ -9,7 +9,7 @@
     <!-- Primary Meta Tags -->
     <title inertia>{{ config('app.name', 'Laravel') }}</title>
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <meta name="title" content="GuacPanel">
+    <meta name="title" content="Laravel Admin">
     <meta name="description"
         content="A lightweight, customizable admin dashboard built with Laravel, Inertia, Vue, and Tailwind CSS.">
     <meta name="keywords" content="Laravel, Inertia.js, Vue.js, Tailwind CSS, Admin Dashboard, SaaS">
@@ -26,25 +26,25 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="http://localhost:8000">
-    <meta property="og:title" content="GuacPanel">
+    <meta property="og:title" content="Laravel Admin">
     <meta property="og:description"
         content="A lightweight, customizable admin dashboard built with Laravel, Inertia, Vue, and Tailwind CSS.">
     <meta property="og:image" content="{{ asset('images/og-image.png') }}">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:title" content="GuacPanel">
+    <meta property="twitter:title" content="Laravel Admin">
     <meta property="twitter:description"
         content="A lightweight, customizable admin dashboard built with Laravel, Inertia, Vue, and Tailwind CSS.">
     <meta property="twitter:image" content="{{ asset('images/og-image.png') }}">
 
     <!-- Favicon -->
-    @if($personalisation->favicon)
-    <link rel="icon" type="image/png" href="{{ asset('storage/' . $personalisation->favicon) }}">
+    @if ($personalisation->favicon)
+        <link rel="icon" type="image/png" href="{{ asset('storage/' . $personalisation->favicon) }}">
     @else
-    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon-32x32.png') }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon-16x16.png') }}">
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('favicon-32x32.png') }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('favicon-16x16.png') }}">
     @endif
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('apple-touch-icon.png') }}">
 

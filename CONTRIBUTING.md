@@ -1,6 +1,6 @@
-# Contributing to GuacPanel
+# Contributing to Laravel Admin
 
-Thank you for considering contributing to GuacPanel! We welcome contributions from the community.
+Thank you for considering contributing to Laravel Admin! We welcome contributions from the community.
 
 ## How to Contribute
 
